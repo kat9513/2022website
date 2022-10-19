@@ -4115,6 +4115,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  
 }
 
 .navbar-nav-scroll {
@@ -4123,6 +4124,9 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+  .navbar-toggler{
+    float: right !important;
+  }
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4628,6 +4632,9 @@ textarea.form-control-lg {
   margin-bottom: 0.75rem;
 }
 @media (min-width: 576px) {
+  .navbar-brand{
+    width: 410px; !important
+  }
   .card-group {
     display: flex;
     flex-flow: row wrap;
