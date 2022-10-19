@@ -4632,9 +4632,7 @@ textarea.form-control-lg {
   margin-bottom: 0.75rem;
 }
 @media (min-width: 576px) {
-  .navbar-brand{
-    width: 410px; !important
-  }
+
   .card-group {
     display: flex;
     flex-flow: row wrap;
